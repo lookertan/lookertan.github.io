@@ -1,0 +1,50 @@
+# Site Settings
+baseurl: ""
+title: Sasa's Blog
+description: Sasa's Blog.
+favicon : assets/favicon.ico
+url : "http://sasa33.github.io/"
+
+# Profile Settings
+profile :
+  image : assets/img/avatar.jpeg
+  username : Sasa33
+  description : Hi! I am a programmer.
+  experience :
+    - start : 2015-11
+      end : "?"
+      experience : "/>:, Programmer"
+  
+      
+# Icons
+icons :
+  email: 1042844684@qq.com # Full email address, e.g. "sample@google.com"
+  linkedin:  # Full URL 
+  github: Sasa33
+  gitlab: 
+  bitbucket:
+  google_plus:
+  twitter:
+  youtube:
+  facebook:
+  instagram:
+
+# Disqus
+disqus_shortname: Sasa33
+
+# Post
+excerpt_separator: <!--more-->
+
+# Pagination
+paginate: 5
+paginate_path: "page/:num"
+
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: 
+  - jekyll-paginate
+  - jekyll-feed
+bootstrap:
+  assets: true

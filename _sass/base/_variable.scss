@@ -1,0 +1,30 @@
+$theme-color : #44B3AF;
+$theme-bright : #f7f4f9;
+$theme-dark : #3d8f8c;
+$theme-dark2 : #38706e;
+$text : rgba(0,0,0,0.8);
+$text-gray : rgba(0,0,0,0.54);
+
+%page-padding {
+    padding : 0px 15%!important;
+    @media (max-width: 991px) {
+        padding: 0px 10%!important;
+    }
+    @media (max-width: 576px) {
+        padding: 0px 15px!important;
+    }
+}
+%posts-padding {
+    @media (max-width: 991px) {
+        padding: 0px 10%!important;
+    }
+    @media (max-width: 576px) {
+        padding: 0px!important;
+    }
+}
+%page-nav-btn {
+    right : 5%;
+    @media (max-width: 991px) {
+        right : 3%;
+    }
+}
